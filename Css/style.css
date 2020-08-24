@@ -75,7 +75,7 @@ html {
 
 .wrapper {
   max-width: 1280px;
-  height: 70px;
+  /* height: 120px; */
   margin: 0 auto;
 }
 
@@ -111,7 +111,7 @@ html {
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 36px;
   color: white;
   text-decoration: none;
