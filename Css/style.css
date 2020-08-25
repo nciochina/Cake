@@ -74,16 +74,15 @@ html {
 }
 
 .wrapper {
-  max-width: 1280px;
-  /* height: 120px; */
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .header {
   background-color: black;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 50px;
+  left: 50px;
   width: 100%;
 }
 
@@ -97,10 +96,16 @@ html {
 .header_list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header_item {
-  margin-right: 66px;
+  /* display: flex; */
+  block-size: 42px;
+  margin-right: 75px;
+  box-shadow: 0 1px 0 0 #ddd;
+  /* -webkit-box-pack: center;
+  justify-content: center; */
 }
 
 .header_item :last-child {
@@ -111,7 +116,7 @@ html {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 36px;
   color: white;
   text-decoration: none;
